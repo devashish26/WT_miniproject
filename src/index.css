@@ -1,0 +1,303 @@
+*,*::after, *::before{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.666;
+  margin: 0;
+  padding-bottom: 7rem;
+  position: relative;
+  min-height: 100vh;
+  background-color: rgb(226, 224, 193);
+  font-family: "Helveticac Neue", sans-serif;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+}
+
+header a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .15s ease;
+  display: inline-block;
+  color: #333;
+}
+
+form {
+  width: 80%;
+  max-width: 400px;
+  padding: 4rem 2rem;
+  border-radius: .5rem;
+  background-color: #fff;
+  margin: 1em auto;
+}
+
+input,
+textarea,
+button,
+input[type="submit"]  {
+  display: block;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  outline: none;
+  border: 1px solid;
+  border-radius: 0.5rem;
+}
+
+button,
+input[type="submit"] {
+  background: rgb(233, 229, 4);
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+
+
+button:hover,
+input[type="submit"]:hover{
+  background: rgb(233, 210, 4);
+}
+
+a:hover{
+  color: #111;
+  text-decoration: underline;
+}
+
+.banner{
+  background:linear-gradient( rgba(82, 64, 64, 0.227) 100%, rgba(109, 77, 77, 0.556)100%),url("img/bannern.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+
+.takeaway{
+
+}
+
+.takeaway p{
+  margin-right: 60% ;
+  text-size-adjust: 40;
+}
+button.standalone{
+  display: inline-block;
+  width: auto;
+  padding: 1.5rem 2.5rem;
+  background-color: rgba(42, 135, 144, 0.871);
+  color: #fff;
+  border-radius: 0;
+}
+
+
+.login-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
+  margin: 5rem 0;
+}
+
+.map{
+  align-items: center;
+}
+footer{
+  background-color: #fff;
+  color: #444;
+  padding: 1.5rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.row {
+  width: 100%;
+  margin: 0 -1.5rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col{
+  margin: 1.5rem;
+  flex:1;
+  min-width: 100px;
+}
+
+img{
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.col.product{
+  min-width: 250px;
+  width: 27%;
+  padding: 0px 5px;
+  border-radius: .5rem;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 0 1px 15px -2px rgba(0,0,0,0.1);
+}
+
+input[type="radio"]{
+  display: inline-block;
+  width: auto;
+  margin: 1rem;
+}
+
+label
+
+
+.text-right{
+  text-align: right;
+}
+
+.product button{
+  display: block;
+  width: auto;
+  margin:1rem auto;
+  background-color: #fff;
+  border: 2px solid rgb(233, 229, 4);
+}
+
+.product button:hover{
+  background-color: rgb(233, 229, 4);
+}
+
+.product-wrapper, .wishlist{
+  background-color: #fff;
+  border-radius: .5rem;
+  margin: 3rem auto;
+  padding: 3rem 2rem;
+}
+.sidebar{
+  align-items: left;
+}
+.offer-img{
+  width:50px;
+  height:50px;
+}
+.blog{
+  background-color: beige;
+
+}
+.blog h4{
+  margin: 200;
+  margin-right: 50px;
+  margin-left: 350px;
+  justify-content: center;
+}
+.blog h1{
+  text-align: center;
+ 
+}
+.blog small{
+  margin: 200;
+  margin-right: 50px;
+  margin-left: 30px;
+ justify-content: left;
+  color: blue;
+}
+.blog img{
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 500px;
+  justify-content: center;
+}
+.sidebar .row{
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px;
+}
+.tagline{
+  text-align: center;
+  margin-right: 500px;
+}
+
+table{
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  min-width: 400px;
+}
+
+.cart table{
+  border: 1px solid;
+}
+.cart{
+  background-color: #fff;
+  margin: 2rem auto;
+  padding:6rem 3rem;
+  border-radius: .5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+td,th{
+  padding: 1rem 2rem;
+  text-align: center;
+  vertical-align: center;
+}
+.cart td,.cart th{
+  border: 1px solid;
+}
+
+table button, button.red{
+  background-color: rgb(241, 76, 76);
+}
+
+table button:hover, button.red:hover{
+  background-color: rgb(156, 58, 58);
+}
+
+table img{
+  max-height: 100px;
+  width: auto;
+}
+
+
+
+@media (max-width:550px){
+  header{
+    display: block;
+    padding: 1rem
+  }
+  header h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+}

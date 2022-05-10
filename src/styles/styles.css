@@ -1,0 +1,63 @@
+img{
+    max-width: 130px;
+}
+
+
+
+
+
+
+
+.masterWrapper{
+    display: flex;
+    padding-left: 250px;
+
+}
+.c1{
+    min-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+.userTypeSignup{
+    /* padding-left: 50px; */
+}
+.resetPassDiv{
+    position: absolute;
+    bottom: 100px;
+    right: 715px;
+}
+
+
+
+
+.noUnderline{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.noUnderline:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+
+
+
+.currencyButton{
+    max-width: 80px;
+    padding: 5px 15px 5px 50px;
+    margin: 0;
+
+}
+.footerWrapper{
+    display: flex;
+}

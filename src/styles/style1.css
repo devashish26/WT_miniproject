@@ -1,0 +1,15 @@
+.shopBy{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.shopByAtt{
+    background-color: rgb(235, 235, 235);
+    margin:1em;
+    padding: .25em;
+    cursor: pointer;
+}
+
+.small-button{
+    width:15em;
+}
